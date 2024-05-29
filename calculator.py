@@ -1,11 +1,12 @@
 # 사칙연산 계산기 만들기
 
 def main():
-    a = int(input('계산할 값 1을 입력하세요'))
-    b = int(input('계산할 값 2을 입력하세요'))
+    #사칙연산에 사용할 두 수
+    a = 0
+    b = 0
 
     while True:
-
+        operation = input("연산 방법을 선택하세요(0: 덧셈, 1: 뺄셈, 2: 나눗셈, 3: 곱셈):")
 
 
         if operation == '0':
