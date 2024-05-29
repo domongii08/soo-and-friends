@@ -1,8 +1,8 @@
 # 사칙연산 계산기 만들기
 
 def main():
-    a = 0
-    b = 0
+    a = int(input('계산할 값 1을 입력하세요'))
+    b = int(input('계산할 값 2을 입력하세요'))
 
     while True:
 
